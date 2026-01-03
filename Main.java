@@ -11,7 +11,7 @@ public class Main {
 		int sum = 0;
 		
 		for(int i = 0; i < resultArray.length; i++) {
-			sum += Integer.parseInt(resultArray[i]); // 1桁目から8桁目の数字を合計し、sumに代入
+			sum += Integer.parseInt(resultArray[i]); // 文字列を整数に変換 & 1桁目から8桁目の数字を合計し、sumに代入
 		}
 		
 		int result = sum % 5;
