@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("生年月日を8桁入力してください。 ex)19810503"); 
-		String input = new java.util.Scanner(System.in).nextLine(); //日付は「数字」ではなく、「文字列」として扱うのが基本
+		String input = new java.util.Scanner(System.in).nextLine(); //日付は「数値」ではなく、「文字列」として扱うのが基本
 		
 		String[] resultArray = resultArray = input.split("");　//文字列を分割して配列に配列化する
 		
